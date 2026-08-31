@@ -58,7 +58,7 @@ dev dependencies: {
 /**
  * MiroTalk SFU - Server component
  *
- * @link    GitHub: https://github.com/miroslavpejic85/mirotalksfu
+ * @link    GitHub: https://github.com/immh7m-stack/mirotalksfu
  * @link    Official Live demo: https://sfu.mirotalk.com
  * @license For open source use: AGPLv3
  * @license For commercial or closed source, contact us at license.mirotalk@gmail.com or purchase directly via CodeCanyon
@@ -682,7 +682,7 @@ function startServer() {
     // OpenID Connect - Dynamically set baseURL based on incoming host and protocol
     if (OIDC.enabled) {
         // Skip OIDC for static assets to avoid state cookie races on /auth/callback
-        // when `authRequired: true`. See: https://github.com/miroslavpejic85/mirotalksfu/issues/251
+        // when `authRequired: true`. See: https://github.com/immh7m-stack/mirotalksfu/issues/251
         const oidcStaticAssetRegex =
             /\.(ico|png|jpe?g|gif|svg|webp|css|js|mjs|map|woff2?|ttf|eot|otf|mp3|mp4|webm|wav|ogg|txt|xml|json|manifest)$/i;
         const skipStaticAssets = (mw) => (req, res, next) => {

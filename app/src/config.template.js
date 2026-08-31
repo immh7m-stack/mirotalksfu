@@ -1259,7 +1259,7 @@ module.exports = {
                 title: `WebRTC SFU v${packageJson.version}`,
                 html: `
                     <button id="support-button" data-umami-event="Support button"
-                        onclick="window.open('${process.env.SUPPORT_URL || 'https://codecanyon.net/user/miroslavpejic85'}', '_blank')">
+                        onclick="window.open('${process.env.SUPPORT_URL || 'https://codecanyon.net/user/immh7m-stack'}', '_blank')">
                         <i class="fas fa-heart"></i> ${process.env.SUPPORT_TEXT || 'Support'}
                     </button>
                     <br />

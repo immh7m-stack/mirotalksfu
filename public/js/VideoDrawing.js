@@ -15,7 +15,7 @@
  *  - Auto-clear runs independently on each peer (each stroke disappears 5s after
  *    it was received/created), keeping clocks loosely in sync.
  *
- * @link    GitHub: https://github.com/miroslavpejic85/mirotalksfu
+ * @link    GitHub: https://github.com/immh7m-stack/mirotalksfu
  * @license For open source use: AGPLv3
  */
 

@@ -18,12 +18,12 @@ A modern alternative to Zoom, Google Meet, Jitsi Meet, and Microsoft Teams, powe
 
 <div align="center">
 
-[![GitHub Stars](https://img.shields.io/github/stars/miroslavpejic85/mirotalksfu?style=social)](https://github.com/miroslavpejic85/mirotalksfu/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/miroslavpejic85/mirotalksfu?style=social)](https://github.com/miroslavpejic85/mirotalksfu/network/members)
+[![GitHub Stars](https://img.shields.io/github/stars/immh7m-stack/mirotalksfu?style=social)](https://github.com/immh7m-stack/mirotalksfu/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/immh7m-stack/mirotalksfu?style=social)](https://github.com/immh7m-stack/mirotalksfu/network/members)
 
 <a href="https://choosealicense.com/licenses/agpl-3.0/">![License: AGPLv3](https://img.shields.io/badge/License-AGPLv3_Open_Source-blue.svg)</a>
 <a href="https://hub.docker.com/r/mirotalk/sfu">![Docker Pulls](https://img.shields.io/docker/pulls/mirotalk/sfu)</a>
-<a href="https://github.com/miroslavpejic85/mirotalksfu/commits/main">![Last Commit](https://img.shields.io/github/last-commit/miroslavpejic85/mirotalksfu)</a>
+<a href="https://github.com/immh7m-stack/mirotalksfu/commits/main">![Last Commit](https://img.shields.io/github/last-commit/immh7m-stack/mirotalksfu)</a>
 <a href="https://discord.gg/rgGYfeYW3N">![Discord](https://img.shields.io/badge/Discord-Community-5865F2?logo=discord&logoColor=white)</a>
 <a href="https://www.linkedin.com/in/miroslav-pejic-976a07101/">![Author](https://img.shields.io/badge/Author-Miroslav_Pejic-brightgreen.svg)</a>
 
@@ -36,7 +36,7 @@ A modern alternative to Zoom, Google Meet, Jitsi Meet, and Microsoft Teams, powe
 <p align="center">
     <a href="https://sfu.mirotalk.com">Try Live Demo</a> · <a 
 href="https://sfu.mirotalk.com/privacy">Privacy</a> · <a 
-href="https://docs.mirotalk.com/mirotalk-sfu/self-hosting/">Documentation</a> · <a href="https://discord.gg/rgGYfeYW3N">Discord</a> · <a href="https://github.com/sponsors/miroslavpejic85">Sponsor</a>
+href="https://docs.mirotalk.com/mirotalk-sfu/self-hosting/">Documentation</a> · <a href="https://discord.gg/rgGYfeYW3N">Discord</a> · <a href="https://github.com/sponsors/immh7m-stack">Sponsor</a>
 </p>
 
 <br />
@@ -49,7 +49,7 @@ href="https://docs.mirotalk.com/mirotalk-sfu/self-hosting/">Documentation</a> ·
 
 <p align="center">Proudly sponsored by</p>
 
-<h1 align=center><a href="https://www.recall.ai/?utm_source=github&utm_medium=sponsorship&utm_campaign=miroslavpejic85-mirotalksfu">Recall.ai</a> - API for meeting recording</h1>
+<h1 align=center><a href="https://www.recall.ai/?utm_source=github&utm_medium=sponsorship&utm_campaign=immh7m-stack-mirotalksfu">Recall.ai</a> - API for meeting recording</h1>
 <p align="center">An API for recording Zoom, Google Meet, Microsoft Teams, and in-person meetings.</p>
 
 <hr />
@@ -101,7 +101,7 @@ href="https://docs.mirotalk.com/mirotalk-sfu/self-hosting/">Documentation</a> ·
 **Start in 6 commands:**
 
 ```bash
-git clone https://github.com/miroslavpejic85/mirotalksfu.git
+git clone https://github.com/immh7m-stack/mirotalksfu.git
 cd mirotalksfu
 cp app/src/config.template.js app/src/config.js
 cp .env.template .env
@@ -144,7 +144,7 @@ Install `NodeJS 22.X` and `npm` using [Node Version Manager](https://docs.mirota
 Start the server:
 
 ```bash
-git clone https://github.com/miroslavpejic85/mirotalksfu.git
+git clone https://github.com/immh7m-stack/mirotalksfu.git
 cd mirotalksfu
 cp app/src/config.template.js app/src/config.js
 cp .env.template .env
@@ -156,7 +156,7 @@ Open [https://localhost:3010](https://localhost:3010) - done!
 
 > \[!NOTE]
 >
-> To run `MiroTalk SFU` on a `Windows operating system`, you can follow the instructions provided in [this documentation](https://github.com/miroslavpejic85/mirotalksfu/issues/99#issuecomment-1586073853).
+> To run `MiroTalk SFU` on a `Windows operating system`, you can follow the instructions provided in [this documentation](https://github.com/immh7m-stack/mirotalksfu/issues/99#issuecomment-1586073853).
 
 </details>
 
@@ -172,7 +172,7 @@ Open [https://localhost:3010](https://localhost:3010) - done!
 **Prerequisites:** Install [Docker Engine](https://docs.docker.com/engine/install/) and [Docker Compose](https://docs.docker.com/compose/install/) - Image available on [Docker Hub](https://hub.docker.com/r/mirotalk/sfu)
 
 ```bash
-git clone https://github.com/miroslavpejic85/mirotalksfu.git
+git clone https://github.com/immh7m-stack/mirotalksfu.git
 cd mirotalksfu
 cp app/src/config.template.js app/src/config.js
 cp .env.template .env
@@ -276,7 +276,7 @@ To obtain a [MiroTalk SFU license](https://docs.mirotalk.com/license/licensing-o
 
 <br/>
 
-Do you find MiroTalk SFU indispensable for your needs? Join us in supporting this transformative project by [becoming a backer or sponsor](https://github.com/sponsors/miroslavpejic85). By doing so, not only will your logo prominently feature here, but you'll also drive the growth and sustainability of MiroTalk SFU. Your support is vital in ensuring that this valuable platform continues to thrive and remain accessible for all. Make an impact - back MiroTalk SFU today and be part of this exciting journey!
+Do you find MiroTalk SFU indispensable for your needs? Join us in supporting this transformative project by [becoming a backer or sponsor](https://github.com/sponsors/immh7m-stack). By doing so, not only will your logo prominently feature here, but you'll also drive the growth and sustainability of MiroTalk SFU. Your support is vital in ensuring that this valuable platform continues to thrive and remain accessible for all. Make an impact - back MiroTalk SFU today and be part of this exciting journey!
 
 |                                                                                |                                                                                                                    |                                                                                                                                   |
 | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |

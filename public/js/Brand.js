@@ -106,7 +106,7 @@ let BRAND = {
             <button 
                 id="support-button" 
                 data-umami-event="Support button" 
-                onclick="window.open('https://codecanyon.net/user/miroslavpejic85', '_blank')">
+                onclick="window.open('https://codecanyon.net/user/immh7m-stack', '_blank')">
                 <i class="fas fa-heart"></i> Support
             </button>
             <br /><br /><br />
