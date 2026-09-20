@@ -1062,7 +1062,19 @@ function startServer() {
                         return res.status(401).json({ message: 'Invalid Token' });
                     }
 
-                    const { username, password, presenter } = checkXSS(decodeToken(token));
+                    const decodedTokenPayload = decodeToken(token);
+                    const { username, password, presenter, room_id } = checkXSS(decodedTokenPayload);
+
+                    // When a token is used, require an explicit room binding and enforce it
+                    if (!room_id) {
+                        log.warn('Direct Join token missing room binding', { reqRoom: room });
+                        return res.status(401).json({ message: 'Invalid Token Room Binding' });
+                    }
+
+                    if (String(room_id) !== String(room)) {
+                        log.warn('Direct Join token room mismatch', { tokenRoom: room_id, reqRoom: room });
+                        return res.status(401).json({ message: 'Token room mismatch' });
+                    }
 
                     peerUsername = username;
                     peerPassword = password;
